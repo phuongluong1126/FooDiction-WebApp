@@ -1,0 +1,23 @@
+.ingredients {
+    padding: 2rem 1rem 2rem 1rem ;
+    background: var(--white);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .ingredients__wrapper {
+    position: relative;
+    /* margin: 50px 0 45px; */
+  }
+
+.ingredient_item{
+  width: 25rem;
+}
+  .ingredients__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }

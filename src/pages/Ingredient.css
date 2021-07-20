@@ -1,0 +1,19 @@
+.ingredient-page{
+	font-family:"Raleway-regular";
+	background-color: var(--white);
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 4rem 0 2rem .5rem;
+    color: var(--black);
+}
+
+.heading span {
+    color: var(--green);
+}
+.tab-ingre{
+    position: relative;
+    margin-top: 2rem;
+}

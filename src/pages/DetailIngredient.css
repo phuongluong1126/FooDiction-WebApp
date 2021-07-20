@@ -1,0 +1,101 @@
+.health-beni {
+  /* display: flex; */
+  text-align: left;
+  /* list-style-type: none; */
+}
+.page {
+  background: var(--white);
+}
+.beni {
+  font-size: 1.3rem;
+  padding: 0.2rem;
+  color: var(--green);
+  margin-left: 5%;
+}
+.discription {
+  font-size: 1.2rem;
+  padding: 0.1rem;
+  margin-left: 5%;
+  color: var(--black);
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col-6 {
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 45%;
+}
+
+.ingredient__img {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  width: 70%;
+  max-width: 90%;
+  height: 70%;
+  max-height: 80%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.ingredient__pic-wrap {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  padding-top: 90%;
+  /* overflow: hidden; */
+}
+
+.section-heading {
+  font-family: "Raleway-bold";
+  text-align: center;
+  position: relative;
+  color: var(--green);
+}
+
+.section-heading2 {
+  font-family: "Raleway-bold";
+  text-align: center;
+  position: relative;
+  color: var(--green);
+}
+
+@media only screen and (max-width: 900px) {
+  .col-6 {
+    width: 100%;
+  }
+}
+
+.part-3{
+  padding-top: 12rem;
+}
+.highlight{
+  height:5rem;
+  background: white;
+  width: 100%;
+  display: flex;
+  margin-top: -6rem;
+justify-content: center;
+}
+.item{
+width: 8%;
+height: 80%;
+margin: 0.65% 2rem;
+color: white;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+text-align: center;
+background: var(--green);
+border-radius: 1.2rem;
+}
+.number-item{
+  font-family: "Raleway-bold";
+}

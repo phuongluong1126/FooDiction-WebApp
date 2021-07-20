@@ -1,0 +1,295 @@
+
+.health-beni{
+    /* display: flex; */
+text-align: left;
+margin-top: 2%;
+margin-right: 5%;
+margin-bottom: 3rem;
+/* list-style-type: none; */
+}
+
+.page{
+  background-color: var(--white);
+  margin-top: -2rem;
+  padding-top: 3rem;
+}
+
+.count-beni{
+  list-style-type: none;
+}
+.beni{
+  color: var(--black);
+}
+.beni2 {
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    color: var(--black);
+
+}
+.beni3 {
+  font-size: 1.3rem;
+  padding: 0.3rem;
+  color: var(--black);
+  margin-left: 2%;
+}
+
+.discription {
+  font-size: 1.2rem;
+  padding: 0.1rem;
+  margin-left: 5%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-top: 3%;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
+.row-8 {
+  position: relative;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 1rem;
+}
+
+
+.col-8a {
+  border-radius: 10px;
+  width: 50%;
+  margin-bottom: 2rem;
+  align-items: right;
+  justify-content: right;
+  margin-left: 10%;
+}
+.col-8b {
+  border-radius: 10px;
+  width:40%;
+  margin-bottom: 2rem;
+  align-items: left;
+  margin-top: 3.5rem;
+}
+
+.col-8c {
+  position: relative;
+  width: 60%;
+  margin-bottom: 3rem;
+  margin-left: -5%;
+}
+
+.ingre-beni{
+  width: 8rem;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  align-items: right;
+  justify-content: right;
+}
+.count-ingre{
+  width: 2rem;
+  margin-bottom: 2rem;
+}
+
+.col-1 {
+  border-radius: 10px;
+  width: 45%;
+  margin-bottom: 2rem;
+  
+}
+
+.col-2 {
+  border-radius: 10px;
+  width: 40%;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+
+.section-heading{
+  font-family:"Raleway-bold";
+  text-align:left;
+  Position:relative;
+  font-size: 1.8rem;
+  color: var(--green);
+  margin-left: 8%;
+  text-align: center;
+}
+.section-ingre{
+  font-family:"Raleway-bold";
+  text-align:center;
+  Position:relative;
+  font-size: 1.8rem;
+  color: var(--black);
+  margin-left: 20%;
+}
+
+.section-heading2{
+font-family:"Raleway-bold";
+text-align:center;
+Position:relative;
+margin-top: -10%;
+color: var(--green);
+}
+.col-6{
+  justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+.col-6 {
+  width: 100%;
+}
+.name-table{
+  font-size: 1.5rem;
+}
+.col-2 {
+  width: 100%;
+  margin-left: 2rem;
+}
+.col-1{
+  width: 100%;
+  margin-left: 2rem;
+}
+.row-8{
+  width: 100%;
+  margin-left: 2rem;
+}
+.col-8c {
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+.recipes__item2 {
+  width: 90%;
+}
+.nutri-fact .table-header {
+  font-size: 0.5rem;
+  justify-content: center;
+  box-shadow: 0 3px 5px gray;
+  text-align: center;
+  border-radius: 1rem 1rem 0 0;
+  color: var(--green);
+  font-family:"Raleway-bold";
+}
+}
+
+.recipes__item2 {
+  display: flex;
+  /* flex: 1; */
+  margin: 0.5rem 10%;
+  border-radius: 10px;
+  width: 80%;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.recipes__item__link2 {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 30px rgba(0, 146, 69, 0.25);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  .recipes__item__pic-wrap2 {
+    position: relative;
+    width: 100%;
+    padding-top: 80%;
+    overflow: hidden;
+  }
+
+  .recipes__item__img2 {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
+  .recipes__item__info2 {
+    padding: 15px 10px 15px 10px;
+    align-self: center;
+    font-family: "Raleway-bold";
+    color:var(--orange);
+    font-size: 2rem;
+    line-height: 30px;
+  }
+  .nutri-main .nutri-table {
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 1rem;
+}
+
+.nutri-fact {
+    font-size: 1rem;
+    display: grid;
+}
+
+
+.nutri-fact .table-header {
+    font-size: 1.8rem;
+    justify-content: center;
+    box-shadow: 0 3px 5px gray;
+    text-align: center;
+    border-radius: 1rem 1rem 0 0;
+    color: var(--green);
+    font-family:"Raleway-bold";
+}
+
+.nutri-table table {
+    border-collapse: collapse;
+    box-shadow: 0 3px 5px rgba(3, 58, 31, 0.8);
+    background-color: white;
+    overflow: hidden;
+    border-radius: 3rem 3rem 0 0;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.nutri-table th {
+    padding: 1rem 8rem;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.1rem;
+    margin-left: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.nutri-table td {
+    padding: 1rem 4rem;
+    padding-right: 2rem;
+    width: 35rem;
+}
+
+.nutri-fact tbody {
+    font-display: block;
+    height: 26rem;
+    overflow-y: auto;
+}
+
+.nutri-fact tbody::-webkit-scrollbar {
+    width: 1.4rem;
+}
+
+.nutri-fact tbody::-webkit-scrollbar-track {
+    background: #333;
+}
+
+.nutri-fact tbody::-webkit-scrollbar-thumb {
+    background: var(--green);
+}
+
+tr:nth-child(even) {
+    background-color: var(--grey1);
+}

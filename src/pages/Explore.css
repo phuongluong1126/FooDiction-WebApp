@@ -1,0 +1,30 @@
+
+.Title-list{
+  justify-content: left;
+  display: flex;
+  color: var(--green);
+  font-size: 1.7rem;
+  text-decoration: none;
+  margin-left: 9%;
+  font-family: "Raleway-bold";
+}
+.Title-list:hover{
+  color: var(--orange);
+}
+.More{
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+.search-field{
+  margin-bottom: 2rem;
+}
+.button-search{
+  width: 5rem;
+  color: var(--green);
+}
+.page{
+  background-color: var(--white);
+}

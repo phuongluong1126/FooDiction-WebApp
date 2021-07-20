@@ -1,0 +1,126 @@
+
+.search_box{
+	position: relative;
+    left: 5%;
+	width: 70%;
+	height: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.page{
+	background-color: var(--white);
+}
+
+.input[type=text]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px 20px;
+	font-size: 20px;
+    color: var(--orange);
+    padding-right: 150px;
+    /* border: 2px solid var(--orange); */
+    border-radius: 25px;
+    border: 2px solid var(--orange);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.input[type=text]:focus{
+    border-radius: 25px;
+    border: 2px solid var(--orange);
+
+}
+
+.button{
+	position: absolute;
+	width: 125px;
+	height: 45px;
+	top: 7px;
+    bottom: 7px;
+	right: 8px;
+	background:var(--orange);
+	z-index: 1;
+	cursor: pointer;
+    border-radius: 18px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn:hover{
+	background: orangered;	
+}
+.heading2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0rem 0 0rem .5rem;
+    color: var(--black);
+	margin-bottom: 1rem;
+}
+
+.heading2 span {
+    color: var(--green);
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 1.5rem;
+	margin-top: -1rem;
+	margin-bottom: -1rem;
+    color: var(--black);
+}
+
+.heading3 span {
+    color: var(--green);
+}
+
+
+.btn--primary{
+	color: var(--orange);
+	position: relative;
+	width: 15rem;
+	border-radius: 10rem;
+	text-decoration: none;
+	margin-top: -10rem;
+}
+
+.cook-btn{
+	display: flex;
+	justify-content: center;
+	margin-left: 10%;
+}
+.view-under{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -1rem;
+}
+.view-side1{
+	border-radius: 10px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	width: 45%;
+	margin-bottom: 2rem;
+}
+.view-side2{
+	border-radius: 10px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	width: 39%;
+	margin-bottom: 2rem;
+}
+.list-recipe{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -5%;
+}
