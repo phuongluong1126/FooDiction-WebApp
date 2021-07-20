@@ -10,23 +10,22 @@ import DetailIngredient from "./pages/DetailIngredient";
 import DetailRecipe from "./pages/DetailRecipe";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
-// import Toggle from "./components/layout/Toggle";
-// import "./components/layout/Toggle.css";
+import Toggle from "./components/layout/Toggle";
+import "./components/layout/Toggle.css";
 
 function App() {
   const [toggled, setToggled] = useState(false);
   return (
     <Router>
       <div className="App">
-        {/* <Toggle
+        <Toggle
           toggled={toggled}
           onClick={() => {
             setToggled(!toggled);
-          }}
-          className="toggle"
-        /> */}
+          }} className="toggle"
+        />
         <div className={`${toggled ? " night" : "day"}`}>
-          <Navbar />
+                          <Navbar />
           <Switch>
             <Route path="/" exact>
               <Home />

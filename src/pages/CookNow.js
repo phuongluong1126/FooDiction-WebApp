@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { ingredients } from "../data/IngredientsData";
-import { recipes } from "../data/RecipesData";
+import { ingredients } from "../data/ingredients_data.js";
+import { recipes } from "../data/recipes_data.js";
 // import { temp } from "../data/ingredients_data.js";
 import { Link } from "react-router-dom";
-import "../components/model/ingredient/IngredientItem2.css";
-import "../components/model/ingredient/ListIngredient2.css";
-import { Button } from "../components/model/Button";
-import ListRecipe from "../components/model/ListRecipe.js";
+import "../components/items/ingredient/IngredientItem2.css";
+import "../components/items/ingredient/ListIngredient2.css";
+import { Button } from "../components/layout/Button";
+import ListRecipe from "../components/items/ListRecipe.js";
 import "./CookNow.css";
 
 function Cook() {

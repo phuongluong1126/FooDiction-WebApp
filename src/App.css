@@ -1,5 +1,5 @@
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   /* font-family:"Raleway-regular"; */
 }
@@ -12,15 +12,15 @@
 }
 @font-face {
   font-family:"Raleway-regular";
-  src:url(./font/Raleway-Regular.ttf)
+  src:url(./fonts/Raleway-Regular.ttf)
 }
 @font-face {
   font-family:"Raleway-medium";
-  src:url(./font/Raleway-Medium.ttf)
+  src:url(./fonts/Raleway-Medium.ttf)
 }
 @font-face {
   font-family:"Raleway-bold";
-  src:url(./font/Raleway-Bold.ttf)
+  src:url(./fonts/Raleway-Bold.ttf)
 }
 
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { ingredients } from "../data/IngredientsData";
-import ListIngredient from "../components/model/ingredient/ListIngredient";
-import Tabs from "../components/model/Tabs.js";
+import { ingredients } from "../data/ingredients_data.js";
+import ListIngredient from "../components/items/ingredient/ListIngredient";
+import Tabs from "../components/items/Tabs.js";
 import "./Ingredient.css";
 
 function Ingredient() {

@@ -1,6 +1,6 @@
-import { recipes } from "../data/RecipesData";
+import { recipes } from "../data/recipes_data.js";
 import React, { useState, useEffect } from "react";
-// import ListRecipe from "../components/items/ListRecipe.js";
+import ListRecipe from "../components/items/ListRecipe.js";
 import "./DetailRecipe.css";
 
 function DetailRecipe(props) {

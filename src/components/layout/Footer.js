@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-// import { Button } from "./Button";
+import { Button } from "./Button";
 import { Link } from "react-router-dom";
-// import rasberry from "../../images/rasberry.png";
+import rasberry from "../../images/rasberry.png";
 
 function Footer() {
   return (

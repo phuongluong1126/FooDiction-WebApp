@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { recipes } from "../data/RecipesData";
-import ListRecipe from "../components/model/ListRecipe.js";
+import { recipes } from "../data/recipes_data.js";
+import ListRecipe from "../components/items/ListRecipe.js";
 import "./Recipe.css";
-import { ingredients } from "../data/IngredientsData";
+import { ingredients } from "../data/ingredients_data.js";
 import "./Explore.css";
 import { Link } from "react-router-dom";
-import TabSearch from "../components/model/TabSearch.js";
+import TabSearch from "../components/items/TabSearch.js";
 
 function Explore() {
   let trendingList = [recipes[1], recipes[2], recipes[6]];
