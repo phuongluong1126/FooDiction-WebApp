@@ -27,7 +27,7 @@ function Ingredient() {
   if (searchTerm.length === 0) {
     return (
       <div className="ingredient-page">
-        <h1 className="heading" data-aos="fade-up">
+        <h1 className="heading heading-ingre" data-aos="fade-up">
           What <span>ingredient</span> you want to <span>explore</span>?
         </h1>
         <div className="search_wrap search_wrap_5">

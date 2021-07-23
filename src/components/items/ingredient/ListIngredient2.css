@@ -1,7 +1,3 @@
-.ingredients {
-    padding: 1rem 1rem 2rem 1rem ;
-  }
-  
   h1 {
     text-align: center;
   }
@@ -11,12 +7,13 @@
     /* margin: 50px 0 45px; */
   }
 
-.ingredient_item{
-  width: 25rem;
-}
   .ingredients__items {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
   }
+.ingredients__container {
+  justify-content: center;
+  width: 100%;
+}

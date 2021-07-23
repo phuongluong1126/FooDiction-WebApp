@@ -4,7 +4,6 @@ min-height: 800px;
 }
 .search_box{
 	position: relative;
-    left: 5%;
 	width: 70%;
 	height: 60px;
     margin-left: 10%;

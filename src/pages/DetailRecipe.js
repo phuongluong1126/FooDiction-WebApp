@@ -86,7 +86,7 @@ function DetailRecipe(props) {
         <div className="row-2">
         <div className="col-2a">
         <div className="list-ingredient">
-            <h1 className="section-heading">Ingredients</h1>
+            <h1 className="section-heading">Ingredients for {`${recipe.servings}`} servings </h1>
               <ul className="ingres">
                 {recipe.recipes.map((beni) => (
                   <div className="ingre">
