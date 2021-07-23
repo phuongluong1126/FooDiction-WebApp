@@ -89,7 +89,7 @@ function Ingredient() {
           ) : null}
         </div>
       </div>
-      {<ListIngredient ingredients={tempList} />}
+      <ListIngredient ingredients={tempList} />
     </div>
   );
 }

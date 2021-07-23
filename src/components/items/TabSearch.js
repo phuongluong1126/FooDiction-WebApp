@@ -59,7 +59,7 @@ function TabSearch(props) {
           {props.listIngredient.length > 0 ? (
             <ListIngredient ingredients={props.listIngredient} />
           ) : (
-            <h2 className="No-result">No ingredient can find</h2>
+            <h2 className="No-result">No ingredient can find :(</h2>
           )}
         </div>
 
@@ -69,7 +69,7 @@ function TabSearch(props) {
           {props.listRecipe.length > 0 ? (
             <ListRecipe recipes={props.listRecipe} />
           ) : (
-            <h2 className="No-result">No recipe can find</h2>
+            <h2 className="No-result">No recipe can find :(</h2>
           )}
         </div>
       </div>

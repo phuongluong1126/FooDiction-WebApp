@@ -11,8 +11,8 @@ function DetailRecipe(props) {
   return (
     <div className="page">
       <div className="container">
-        <div className="row">
-          <div className="col-1">
+        <div className="row-1">
+          <div className="col-1a">
             <li className="recipes__item2">
               <div className="recipes__item__link2">
                 <figure className="recipes__item__pic-wrap2">
@@ -26,7 +26,7 @@ function DetailRecipe(props) {
               </div>
             </li>
           </div>
-          <div class="col-2 nutri-table">
+          <div class="col-1b nutri-table">
             {/* <h1 className="section-heading">Nutrition</h1> */}
             <table class="nutri-fact">
               <thead class="table-header">
@@ -83,30 +83,29 @@ function DetailRecipe(props) {
             </table>
           </div>
         </div>
-        <div className="row">
-          <div className="row-8">
-            <div className="col-8a">
+        <div className="row-2">
+        <div className="col-2a">
+        <div className="list-ingredient">
             <h1 className="section-heading">Ingredients</h1>
-              <ul className="ingre-beni">
+              <ul className="ingres">
                 {recipe.recipes.map((beni) => (
-                  <div>
-                    <li className="beni2">{`${beni.name}: `}</li>
-                  </div>
-                ))}
-              </ul>
-            </div>
-            <div className="col-8b">
-              <ul className="count-beni">
-                {recipe.countIngre.map((beni) => (
+                  <div className="ingre">
+                    <div className="name-ingre">{`${beni.name} `}</div>
+                    <div className="ingre-count">
+                      {`${beni.name.length/2}`}
+                    </div>
+                    {/* {recipe.countIngre.filter((ingre) => (
                   <div>
                     <li className="beni3">{beni}</li>
                   </div>
+                ))} */}
+                  </div>
                 ))}
               </ul>
-            </div>
-          </div>
-          <div className="col-8c p-25">
-            <h1 className="section-heading">Instruction</h1>
+              </div>
+        </div>
+          <div className="col-2b">
+            <h1 className="section-heading">Instructions</h1>
             <ul className="health-beni">
               {recipe.instructions.map((beni) => (
                 <div>

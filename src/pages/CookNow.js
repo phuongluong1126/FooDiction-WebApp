@@ -83,7 +83,7 @@ function Cook() {
       </h1> */}
 
       <div className="search_wrap search_wrap_5">
-        <div className="search_box">
+        <div className="search_box search-cook">
           <input
             type="text"
             className="input"

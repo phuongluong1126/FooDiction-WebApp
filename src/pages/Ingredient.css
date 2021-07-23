@@ -1,19 +1,33 @@
-.ingredient-page{
-	font-family:"Raleway-regular";
-	background-color: var(--white);
+.ingredient-page {
+  font-family: "Raleway-regular";
+  background-color: var(--white);
+  min-height: 700px;
 }
 
 .heading {
-    text-align: center;
-    font-size: 2.8rem;
-    padding: 4rem 0 2rem .5rem;
-    color: var(--black);
+  text-align: center;
+  font-size: 2.8rem;
+  padding: 2rem 0 2rem 0.5rem;
+  color: var(--black);
 }
 
 .heading span {
-    color: var(--green);
+  color: var(--green);
 }
-.tab-ingre{
-    position: relative;
-    margin-top: 2rem;
+.tab-ingre {
+  position: relative;
+  margin-top: 2rem;
+  min-height: 32rem;
+}
+
+@media (max-width: 1030px) {
+    .heading {
+      font-size: 2.5rem;
+    }
+  }
+
+@media (max-width: 730px) {
+  .heading {
+    font-size: 2rem;
+  }
 }

@@ -1,7 +1,6 @@
 
 .search_box{
 	position: relative;
-    left: 5%;
 	width: 70%;
 	height: 60px;
     margin-left: 10%;
@@ -123,4 +122,23 @@
 	width: 80%;
 	margin-left: 10%;
 	margin-top: -5%;
+}
+
+@media (max-width: 1223px) {
+	.search_box {
+		height: 55px;
+	}
+	.button {
+		height: 40px;
+	}
+}
+
+@media (max-width: 723px) {
+	.search_box {
+		height: 50px;
+	}
+	.button {
+		height: 35px;
+		width: 80px;
+	}
 }

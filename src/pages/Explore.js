@@ -6,6 +6,7 @@ import { ingredients } from "../data/ingredients_data.js";
 import "./Explore.css";
 import { Link } from "react-router-dom";
 import TabSearch from "../components/items/TabSearch.js";
+import TabTopic from "../components/items/TabTopic.js";
 
 function Explore() {
   let trendingList = [recipes[1], recipes[2], recipes[6]];
@@ -38,6 +39,7 @@ function Explore() {
 
   return (
     <div className="page">
+      <div className = "top-section">
       <h1 className="heading">
         <span>Explore</span> the world of <span>food</span>
       </h1>
@@ -66,15 +68,15 @@ function Explore() {
           </div>
         </div>
       </div>
+      </div>
 
-      {listIngredient.length === 0 && listRecipe.length === 0 ? (
+      {searchTerm.length === 0 ? (
         <div className="Field-Suggest">
-          <div className="Trending-Section">
+          {/* <div className="Trending-Section">
             <div className="row-title">
               <Link className="Title-list" to="/explore">
                 Treding recipes
               </Link>
-              {/* <button className="More">More</button> */}
             </div>
             <ListRecipe recipes={trendingList} />
           </div>
@@ -84,13 +86,15 @@ function Explore() {
               <Link className="Title-list" to="/explore">
                 Happy Mother Day
               </Link>
-              {/* <button className="More">More</button> */}
             </div>
             <ListRecipe recipes={happyMotherList} />
-          </div>
+          </div> */}
+          <TabTopic/>
         </div>
       ) : (
-        <TabSearch listIngredient={listIngredient} listRecipe={listRecipe} />
+        <div className="tab-field-explore">
+                  <TabSearch listIngredient={listIngredient} listRecipe={listRecipe} />
+        </div>
       )}
     </div>
   );

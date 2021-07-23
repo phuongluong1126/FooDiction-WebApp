@@ -41,7 +41,7 @@ function Footer() {
                 <Link to="/explore">Explore</Link>
                 <Link to="/ingredent">Ingredients</Link>
                 <Link to="/recipe">Recipes</Link>
-                <Link to="/cook-now">Cook with ingredient</Link>
+                <Link to="/cook-now">Cook Now</Link>
               </div>
               <div class="footer-link-items">
                 <h2>Contact Us</h2>

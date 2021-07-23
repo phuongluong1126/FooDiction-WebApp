@@ -1,30 +1,46 @@
-
-.Title-list{
+.Title-list {
   justify-content: left;
   display: flex;
   color: var(--green);
   font-size: 1.7rem;
   text-decoration: none;
-  margin-left: 9%;
   font-family: "Raleway-bold";
 }
-.Title-list:hover{
+.Title-list:hover {
   color: var(--orange);
 }
-.More{
+.More {
   justify-content: center;
   align-content: center;
   text-align: center;
   width: 5rem;
   margin-bottom: 2rem;
 }
-.search-field{
+.search-field {
   margin-bottom: 2rem;
 }
-.button-search{
+.button-search {
   width: 5rem;
   color: var(--green);
 }
-.page{
+.page {
   background-color: var(--white);
+}
+.top-section {
+  /* background-image: url('../images/rasberry.png'); */
+  /* background-image: url(https://t4.ftcdn.net/jpg/02/44/71/07/360_F_244710705_kJbRGNfdwXq4zfikaaXE77iQCAHsQjt0.webp); */
+  background-image: var(--image1);
+  background-color: var(--white);
+  height: 15rem;
+  width: 85%;
+  margin: 0rem auto;
+  border-radius: 1rem;
+}
+
+.tab-field-explore {
+  margin-top: 4rem;
+  min-height: 24rem;
+}
+.Field-Suggest {
+  margin-top: 1rem;
 }

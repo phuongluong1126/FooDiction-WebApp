@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
   /* font-family:"Raleway-regular"; */
 }
 
@@ -30,12 +31,18 @@
   --green: #009245;
   --white: #fff;
   --grey1: #E5E5E5;
-  --black: rgb(29, 20, 20)
+  --black: rgb(22, 31, 25);
+  --grey: rgb(85, 85, 85);
+  --image1: url("./images/img1.jpg");
+  --image2: url("./images/img2.png");
 }
 .night{
   --orange: #009245;
   --green:#F8931F;
-  --white: rgb(29, 20, 20);
+  --white: rgb(22, 31, 25);
   --black: rgb(238, 223, 223);
   --grey1: #E5E5E5;
+  --grey: rgb(182, 196, 187);
+  --image1: url("./images/img4.jpg");
+  --image2: url("./images/img3.png");
 }

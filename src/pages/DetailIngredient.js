@@ -26,7 +26,6 @@ function DetailIngredient(props) {
   // const ingredient = ingredients.find(x => x._id === props.match.params.id);
   return (
     <div className="page">
-      <div className="container">
         <div className="part-1">
           <div className="row">
             <div className="col-6 p-25">
@@ -55,7 +54,6 @@ function DetailIngredient(props) {
             </div>
           </div>
         </div>
-      </div>
       <div className="highlight">
         <div className="item">
           <p className="name-item">Calo</p>
@@ -85,7 +83,7 @@ function DetailIngredient(props) {
           </p>
         </div>
       </div>
-      <div className="part-3">
+      <div className="part-end">
         <h1 className="section-heading2">Relate Recipes</h1>
         <ListRecipe recipes={tempList} />
       </div>
